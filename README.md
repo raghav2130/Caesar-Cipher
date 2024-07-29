@@ -1,6 +1,9 @@
 # Caesar-Cipher
 Caesar cipher implementation in Python and Also bruteforcer
 
+currently it simply runs as 
+python3 main.py
+
 on 30th July we will add
   Argument Parsing
   adding flag for file or text argument
