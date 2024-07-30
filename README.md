@@ -18,6 +18,10 @@ now the script simply runs as:
   python3 main.py "data" shift_integer
 
 example - python3 main.py abcd 4
+
 output - cipher_text after shift: efgh
+
 example - python3 main.py "the quick brown fox" 5
+
 output - cipher_text after shift: ymj vznhp gwtbs ktc
+
