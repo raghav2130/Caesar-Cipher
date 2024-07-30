@@ -1,5 +1,16 @@
-data = input("Enter the Data to encrypt: ")
-shift = int(input("Enter shift number (+ve or -ve): "))
+#!/usr/bin/python
+import argparse
+
+parser = argparse.ArgumentParser(description='Takes data and shift as input')
+parser.add_argument('data', metavar='data', type=str, help='Enter your data')
+parser.add_argument('shift', metavar='shift', type=int, help='Enter the shift')
+args = parser.parse_args()
+
+data = args.data
+shift = args.shift
+
+# data = input("Enter the Data to encrypt: ")
+# shift = int(input("Enter shift number (+ve or -ve): "))
 
 if shift == 0:
     print("cipher_text: " + data)
